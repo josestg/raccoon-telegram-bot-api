@@ -1,0 +1,31 @@
+{
+    "name": "raccoon-telegram-bot-api",
+    "version": "1.0.1",
+    "description": "Raccoonjs",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "prepublish": "tsc",
+    "scripts": {
+        "compile": "rimraf dist && tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/josestg/raccoon-telegram-bot-api.git"
+    },
+    "devDependencies": {
+        "@types/request-promise": "^4.1.45",
+        "rimraf": "^3.0.0",
+        "tslint": "^5.20.1",
+        "typescript": "^3.7.2"
+    },
+    "dependencies": {
+        "request": "^2.88.0",
+        "request-promise": "^4.2.5"
+    },
+    "author": "Jose Sitanggang",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/josestg/raccoon-telegram-bot-api/issues"
+    },
+    "homepage": "https://github.com/josestg/raccoon-telegram-bot-api#readme"
+}
