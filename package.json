@@ -1,12 +1,12 @@
 {
     "name": "raccoon-telegram-bot-api",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Raccoonjs",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "prepublish": "tsc",
     "scripts": {
-        "compile": "rimraf dist && tsc"
+        "compile": "tsc"
     },
     "repository": {
         "type": "git",
